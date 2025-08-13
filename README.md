@@ -15,16 +15,9 @@ The system consists of:
 ``` 
 ├── 📄 defect_detection_training.ipynb # Jupyter Notebook for model training
 ├── 📄 app.py # Streamlit app for image inference
-├── 📁 casting_data/ # Dataset folder
-│ ├── casting_data/train/ # Training images
-│ │ ├── defective/
-│ │ └── ok_front/
-│ ├── casting_data/test/ # Testing images
-│ │ ├── defective/
-│ │ └── ok_front/
 │ └── README.txt # Dataset info
 ├── 📁 models/ # Saved trained model(s)
-│ └── defect_model.h5 # Example saved model
+│ └── defect_model.h5 # Example saved model (can't save now due to large data will update later)
 ├── 📄 requirements.txt # Dependencies
 └── 📄 README.md # Project documentation
 ```
@@ -37,17 +30,7 @@ Install dependencies with:
 
 pip install -r requirements.txt
 ```
-```
 
-Example requirements.txt:
-tensorflow
-numpy
-pandas
-matplotlib
-opencv-python
-scikit-learn
-streamlit
-```
 
 ## 📊 Dataset
 
