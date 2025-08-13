@@ -82,14 +82,18 @@ Evaluate model performance on test data
 Save trained model to models/
 
 Replace in notebook:
+``` 
 
 model.save("models/defect_model.h5")
+``` 
 
 ## 🌐 Running the Streamlit App
 
 Run the app with:
+``` 
 
 streamlit run app.py
+``` 
 
 
 Key Features:
@@ -106,4 +110,6 @@ This project is for educational and research purposes only. Dataset belongs to t
 
 ## ✍️ Author
 
-Divyansh Kashyap — BTech AIML Student, Jagannath University
+**Divyansh Kashyap**  
+_BTech AIML | Machine Learning Intern | Open to Collaborations_  
+📧 [LinkedIn](https://www.linkedin.com/in/divyansh-kashyap-231270301/)
