@@ -12,6 +12,7 @@ The system consists of:
 ## 📂 Project Structure
 
 ## 📦 defect-detection
+``` 
 ├── 📄 defect_detection_training.ipynb # Jupyter Notebook for model training
 ├── 📄 app.py # Streamlit app for image inference
 ├── 📁 casting_data/ # Dataset folder
@@ -26,14 +27,17 @@ The system consists of:
 │ └── defect_model.h5 # Example saved model
 ├── 📄 requirements.txt # Dependencies
 └── 📄 README.md # Project documentation
-
+```
 ---
 
 ## ⚙️ Requirements
 
 Install dependencies with:
+```
 
 pip install -r requirements.txt
+```
+```
 
 Example requirements.txt:
 tensorflow
@@ -43,6 +47,7 @@ matplotlib
 opencv-python
 scikit-learn
 streamlit
+```
 
 ## 📊 Dataset
 
@@ -55,7 +60,7 @@ Defective — Products with visible manufacturing defects.
 OK — Products without defects (labeled as ok_front in the dataset).
 
 Dataset structure:
-
+```
 casting_data/
 ├── train/
 │   ├── defective/
@@ -63,7 +68,7 @@ casting_data/
 └── test/
     ├── defective/
     └── ok_front/
-
+```
 ## 🧠 Model Training (Jupyter Notebook)
 
 Open defect_detection_training.ipynb and run all cells to:
